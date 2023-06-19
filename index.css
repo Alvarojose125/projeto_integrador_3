@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+  }
+  
+
+.tela1{
+   background-image: url("images/cachorro12.jpg");
+   height: 850px;
+   width: 100%;
+   align-items: center;
+   display: flex; 
+   flex-direction: row;
+   justify-content: center;
+}
+.caixatexto1{
+   
+    pointer-events: initial;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgba(212, 210, 210, 0.741);
+    height: 50vh;
+    width: 50%;
+    border-style:ridge;
+    border-color: black;
+    border-radius: 10%;
+    margin-right: 700px;
+    margin-top: -150px;
+}
+.caixatexto1 h3{
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: 'Roboto', sans-serif;
+   font-size: 40px;
+   margin-top: 10px;
+}
+.caixatexto1 p{
+    text-align: justify;
+    font-size: 20px;
+    text-decoration: solid;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    font-weight: bold;
+ }
+ /*_______________________________*/
+ .tela2{
+    background-color: #293033;
+    height: 850px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+ }
+ .bordaimg{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e9ddc3bf;
+    width: 600px;
+    height: 600px; 
+    border-radius: 15%;
+    margin-left: 100px;
+    margin-top: 100px;
+ }
+
+
+.caixatexto2 img{
+    width: 551px;
+    height: 551px;
+    margin-right: 74px;
+    margin-left: auto;
+   margin-left: 20px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.caixatexto2-2 {
+   
+    box-sizing: border-box;
+    background-color:#e9ddc3;
+    height: 40%;
+    width: 35%;
+    border-radius: 5%;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    align-items: center;
+}
+.caixatexto2-2 h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .caixatexto2-2 p{
+     text-align: justify;
+     font-size: 20px;
+     text-decoration: solid;
+     font-family: 'Roboto', sans-serif;
+     margin: 10px;
+    font-weight: bold;
+     align-items: baseline;
+  }
+  .caixatexto2-2 a button{
+    border-radius: 100px;
+    align-items: center;
+  }
+/*___________*/
+.tela3{
+    
+    background-image: url("images/cachorro5.jpg");
+    height: 850px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.caixatexto3{
+
+    background-color: rgba(212, 210, 210, 0.741);
+    height: 30vh;
+    width: 40%;
+    border-style:ridge;
+    border-color: black;
+    border-radius: 10%;
+
+    
+}
+.caixatexto3 h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .caixatexto3 p{
+     text-align: justify;
+     font-size: 20px;
+     text-decoration: solid;
+     font-family: 'Roboto', sans-serif;
+     margin: 10px;
+     font-weight: bold;
+     align-items: baseline;
+  }
+
+  @media (max-width: 768px) {
+    .tela1 {
+      flex-direction: column;
+    }
+  
+    .caixatexto1 {
+      width: 82%;
+      margin-right: 0;
+      margin-top: 0;
+      height: 54%;
+    }
+  }
+  @media (max-width: 768px) {
+    .tela2 {
+      flex-direction: column;
+    }
+    .caixatexto2 {
+        width: 82%;
+        margin-right: 0;
+        margin-top: 0;
+       
+    }
+    .caixatexto2{
+        display: none;
+    }
+    .caixatexto2-2 {
+        width: 82%;
+        margin-right: 0;
+        margin-top: 0;
+      }
+  }
+  @media (max-width: 768px) {
+    .tela3 {
+      flex-direction: column;
+    }
+  
+    .caixatexto3 {
+        width: 83%;
+        margin-right: 0;
+        margin-top: 0;
+        height: 45vh;
+    }
+  }
+
+  

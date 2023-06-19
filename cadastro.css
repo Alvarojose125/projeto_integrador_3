@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+}
+
+
+.u-clearfix {
+  margin-bottom: 0px;
+}
+.cadastro form h1 {
+  color:white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.formulario{
+    background: url(images/2.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.cadastro{
+    background-color: rgba(0, 0, 0, 0.558);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+form{
+    width: 550px;
+    
+}
+
+input{
+  text-transform: capitalize;
+
+}
+
+.cadastro h6{
+  font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    color: white;
+    padding: 2px 0 10px 0;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: black 1px 0px 1px ;
+  }
+
+.p label{
+  text-align: left;
+}
+
+.cadastro input{
+  color: black;
+  height: 35px;
+  width: 35%;
+  float: right;
+  margin-right: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+p{
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    
+}
+p.link{
+  font-size: 22px;
+}
+
+.link a{
+  color: black;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+  .cadastro{
+    width: 365px;
+  }
+  .formulario {
+    width: 390px;
+}
+form {
+  width: 360px;
+}
+form label{
+  font-size: 15px;
+}
+.cadastro form p input{
+  margin-top: 6px;
+}
+.cadastro input {
+  width: 45%;
+  height:10% ;
+}
+}

@@ -1,0 +1,49 @@
+.busca {
+    background-color: #c3f0f0;
+    display: flex;
+    flex-direction: row-reverse;
+    -webkit-box-pack: center;
+    justify-content: center;
+     -webkit-box-align: center; 
+     align-items: center; 
+     height: 150px;
+}
+.busca h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tela_exibicao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.lista_disponivel {
+    background-color: rgb(195, 240, 240);
+    width: 350px;
+    height: 700px;
+    border-radius: 2%;
+    border: 6px solid #ace8a4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px;
+    align-items: baseline;
+}
+.lista_disponivel img{
+    width: 250px;
+    height: 200px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.lista_disponivel p {
+    text-transform: uppercase;
+    align-items: baseline;
+    margin-top: 0px;
+   margin-left: 10px;
+   font-weight: bold ;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.rodape {
+        background-color: rgb(221, 221, 221);
+        height: 17vh;
+    }
